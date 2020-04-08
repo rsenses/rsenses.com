@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>rsenses</title>
+        <link>https://rsenses.com</link>
+        <description>Hola, me llamo Rubén, esto es una especie de &lt;strong&gt;diario&lt;&#x2F;strong&gt; y repositorio de &lt;strong&gt;ideas&lt;&#x2F;strong&gt; y &lt;strong&gt;aprendizajes&lt;&#x2F;strong&gt;, donde mostrar mis múltiples facetas.</description>
+        <generator>Zola</generator>
+        <language>es</language>
+        <atom:link href="https://rsenses.com/tags/estoicismo/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Prácticas Estoicas</title>
+                <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+                <link>https://rsenses.com/2020/practicas-estoicas/</link>
+                <guid>https://rsenses.com/2020/practicas-estoicas/</guid>
+                <description>&lt;p&gt;You&#x27;ll find this post in your &lt;code&gt;_posts&lt;&#x2F;code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;&#x2F;code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;&#x2F;code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;&#x2F;p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#272822;&quot;&gt;
+&lt;span style=&quot;color:#f92672;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a6e22e;&quot;&gt;print_hi&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#fd971f;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;)
+  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#66d9ef;&quot;&gt;puts &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;&amp;quot;Hi, #{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#66d9ef;&quot;&gt;name&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;}&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f92672;&quot;&gt;end&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;
+print_hi(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e6db74;&quot;&gt;&amp;#39;Tom&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f8f8f2;&quot;&gt;)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#75715e;&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http:&#x2F;&#x2F;jekyllrb.com&quot;&gt;Jekyll docs&lt;&#x2F;a&gt; for more info on how to get the most out of Jekyll. File all bugs&#x2F;feature requests at &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mojombo&#x2F;jekyll&quot;&gt;Jekyll&#x27;s GitHub repo&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

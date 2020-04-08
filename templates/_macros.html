@@ -1,0 +1,28 @@
+{% macro post_header(page) %}
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>
+                {{ page.extra.excerpt | striptags | safe }}
+                <a class="read-more" href="{{ page.permalink }}">&raquo;</a>
+            </p>
+        </section>
+        <footer class="post-meta">
+            {% if config.extra.author %}
+                <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
+                {{ config.extra.author }}
+            {% endif %}
+            {% if page.taxonomies.tags %}
+                en
+                {% for tag in page.taxonomies.tags %}
+                    <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+                {% endfor %}
+            {% endif %}
+            <time class="post-date" datetime="{{ page.date }}">
+                {{ page.date | date(format="%e %B %Y") }}
+            </time> 
+        </footer>
+    </article>
+{% endmacro post_header %}

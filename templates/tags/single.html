@@ -1,0 +1,32 @@
+{% import "_macros.html" as macros %}
+
+{% extends "layout.html" %}
+
+{% block post_class %}tag-template{% endblock post_class %}
+
+{% block content %}
+    <header class="main-header">
+        <nav class="main-nav">
+            <a class="blog-logo" href="{{ get_url(path="/") }}">
+                <img src="/assets/images/logo.png" alt="Rsenses" />
+            </a>
+            <a class="subscribe-button" href="{{ get_url(path="rss.xml", trailing_slash=false) }}"><i class="icon-rss"></i> Subscribe</a>
+            <div class="clearfix"></div>
+        </nav>
+        <div class="main-header-content inner">
+            <h1 class="page-title">#{{ term.name }}</h1>
+        </div>
+    </header>
+
+    <main id="content" class="content" role="main">
+        <div class="extra-pagination inner">
+            {% include "pagination.html" %}
+        </div>
+
+        {% for page in term.pages %}
+            {{ macros::post_header(page=page, excerpt=true) }}
+        {% endfor %}
+
+        {% include "pagination.html" %}
+    </main>
+{% endblock content %}

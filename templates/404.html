@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1>404</h1>
+
+    <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
+    <p>
+        <a href="{{ get_url(path="/") }}">Click here to return to the homepage.</a>
+    </p>
+{% endblock content %}
