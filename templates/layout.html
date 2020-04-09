@@ -41,10 +41,10 @@
         <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
     {% endif %}
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="preload" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <!-- Customisation  -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css" />
-    <link rel="stylesheet" type="text/css" href="/main.css?v2" />
+    <link rel="preload" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel="stylesheet" type="text/css" href="/main.css?v3" />
 
     {% block extra_head %}
     {% endblock extra_head %}
