@@ -7,9 +7,7 @@
 {% block content %}
     <header class="main-header">
         <nav class="main-nav">
-            <a class="blog-logo" href="{{ get_url(path="/") }}">
-                <img src="/assets/images/logo.png" alt="Rsenses" />
-            </a>
+            <a class="back-button" href="{{ get_url(path="/") }}"><i class="icon-left-open"></i> Home</a>
             <a class="subscribe-button" href="{{ get_url(path="rss.xml", trailing_slash=false) }}"><i class="icon-rss"></i> Subscribe</a>
             <div class="clearfix"></div>
         </nav>

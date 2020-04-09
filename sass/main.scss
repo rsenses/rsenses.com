@@ -96,7 +96,7 @@ body {
 	max-height: 100%;
 	font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
 	letter-spacing: 0.01rem;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 1.75em;
 	color: #1a2a3a;
 	-webkit-font-feature-settings: 'kern' 1;
@@ -538,8 +538,6 @@ p {
 .post-excerpt {
 	p {
 		margin: 0;
-		font-size: 0.9em;
-		line-height: 1.7em;
 		display: inline;
 	}
 	a {
@@ -904,10 +902,6 @@ p {
 	}
 	.page-description {
 		font-size: 1.8rem;
-		line-height: 1.5em;
-	}
-	.post {
-		font-size: 0.95em;
 	}
 	body {
 		&:not(.post-template) {
@@ -1014,7 +1008,6 @@ p {
 		margin-left: 16px;
 		margin-right: 16px;
 		padding-bottom: 2rem;
-		line-height: 1.65em;
 	}
 	.post-date {
 		display: none;
@@ -1035,19 +1028,10 @@ p {
 		}
 	}
 	p {
-		font-size: 0.95em;
 		margin: 0 0 2.5rem 0;
 	}
 	.page-title {
 		font-size: 3rem;
-	}
-	.post-excerpt {
-		p {
-			font-size: 0.85em;
-		}
-	}
-	.page-description {
-		font-size: 1.6rem;
 	}
 	h1 {
 		margin: 0 0 0.3em 0;
@@ -1095,7 +1079,7 @@ p {
 		}
 	}
 	.post-meta {
-		font-size: 1.3rem;
+		font-size: 1.4rem;
 		margin-top: 1rem;
 	}
 	.post-footer {
@@ -1143,5 +1127,8 @@ p {
 	}
 	.tag-head.main-header {
 		height: 20%;
+	}
+	.site-footer {
+		font-size: 1.3rem;
 	}
 }
