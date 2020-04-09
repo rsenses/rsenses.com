@@ -22,10 +22,6 @@
     </header>
 
     <main id="content" class="content" role="main">
-        <div class="extra-pagination inner">
-            {% include "pagination.html" %}
-        </div>
-
         {% for page in paginator.pages %}
             {{ macros::post_header(page=page, excerpt=true) }}
         {% endfor %}
