@@ -4,7 +4,7 @@ date = 2020-04-09
 [taxonomies]
 tags = ["aprendizaje", "estoicismo"]
 [extra]
-excerpt = "El estoicismo es una doctrina filosófica o *filosofía de vida* que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo."
+excerpt = "El estoicismo es una doctrina filosófica o filosofía de vida que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo."
 +++
 
 **El [estoicismo][estoicismo] es una doctrina filosófica o *filosofía de vida* que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo.** 
