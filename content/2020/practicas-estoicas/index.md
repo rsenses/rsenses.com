@@ -13,6 +13,8 @@ Desde hace unos meses ha ido creciendo mi interés por esta filosofía de vida, 
 
 Estas prácticas las obtuve del libro [Cómo ser un estoico de Massimo Pigliucci][como-ser-estoico], están muy resumidas, tal vez demasiado, pero la idea es que sean una referencia para su consulta, para recordarlas. Recomiendo encarecidamente leer ambos libros si se quiere indagar un poco más en esta maravillosa forma de vida.  
 
+No es necesario hacerlas todas, es mas, me parece muy complicado llegar a ese nivel, pero si es recomendable elegir 3 o 4 y practicarlas conscientemente. Algunas se adapta mejor que otras a nuestra forma de ser. Desde mi punto de vista, la mas importante es la última, escribir un diario estoico.
+
 ## Examinar nuestras impresiones  
 “¿Esto es algo que está o no bajo mi control?” ([Dicotomía del control][dicotomia]) Si no es algo que controlas, estate preparado con la reacción “Entonces esto no es de mi incumbencia”.  
 
