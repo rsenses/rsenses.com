@@ -7,7 +7,11 @@ tags = ["aprendizaje", "estoicismo"]
 excerpt = "El estoicismo es una doctrina filosófica o filosofía de vida que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo."
 +++
 
-**El [estoicismo][estoicismo] es una doctrina filosófica o *filosofía de vida* que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo.** 
+El [estoicismo][estoicismo] es una doctrina filosófica o *filosofía de vida* que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo.  
+
+{% figure(alt="Busto de Marco Aurelio", url="marcoaurelio.jpg") %}
+    Marco Aurelio. ¡Que pose tan impasible, estoica, marmórea!
+{% end %}   
 
 Desde hace unos meses ha ido creciendo mi interés por esta *filosofía de vida*, ni mejor, ni peor que otras, pero que **se adapta muy bien a mi forma de ser**. El primer libro que leí fue [El arte de la buena vida: Un camino hacia la alegría estoica de William B. Irvine][arte-buena-vida], un texto perfecto para iniciarse.  
 
