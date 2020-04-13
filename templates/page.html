@@ -29,8 +29,8 @@
 
         <section class="post-content">
             {{ page.content | replace(from=`<a href="` ~ config.base_url ~ `/`, to=`<a  href="` ~ config.base_url ~ `/`)
-                | replace(from=`<a href="https://`, to=`<a target="_blank" rel="nofollow noopener" href="https://`)
-                | replace(from=`<a href="http://`, to=`<a target="_blank" rel="nofollow noopener" href="http://`) | safe }}
+                | replace(from=`<a href="https://`, to=`<a target="_blank" rel="noopener" href="https://`)
+                | replace(from=`<a href="http://`, to=`<a target="_blank" rel="noopener" href="http://`) | safe }}
         </section>
 
         <footer class="post-footer">
