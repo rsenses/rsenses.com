@@ -41,10 +41,9 @@ figure {
 }
 
 main {
-    margin: 0;
     max-width: 70ch;
     padding: 2ch;
-    margin: auto;
+    margin: 0 auto;
 }
 
 body,
@@ -101,7 +100,7 @@ a {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     letter-spacing: -1.5px;
     font-weight: 300;
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
@@ -154,13 +153,13 @@ pre {
 }
 
 figure {
-	margin: 0 0 1.75em;
-	figcaption {
-		font-weight: 400;
-		letter-spacing: 0.4px;
-		font-size: 1.2rem;
-		text-align: center;
-	}
+    margin: 0 0 1.75em;
+    figcaption {
+        font-weight: 400;
+        letter-spacing: 0.4px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
 }
 
 img {
@@ -168,8 +167,8 @@ img {
 }
 
 .img-fluid {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 button {
@@ -262,18 +261,18 @@ h6 {
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     line-height: 1.15em;
     margin: 0 0 0.4em;
-	hyphens: none;
-	font-weight: 400;
+    hyphens: none;
+    font-weight: 400;
 }
 
 h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     letter-spacing: -0.5px;
     font-weight: 300;
 }
 
 h3 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     letter-spacing: 0px;
 }
 
@@ -283,7 +282,7 @@ h4 {
 }
 
 h6 {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 h5,
@@ -295,9 +294,9 @@ p {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-	margin: 0 0 1.75em;
-	letter-spacing: 0.5px;
-	font-weight: 300;
+    margin: 0 0 1.75em;
+    letter-spacing: 0.5px;
+    font-weight: 300;
 }
 
 .clearfix {
@@ -339,7 +338,8 @@ p {
 .main-nav {
     position: relative;
     padding: 35px 40px 0;
-    margin: 0 0 30px;
+    margin: 0 auto 30px;
+    max-width: 100ch;
 
     a {
         text-decoration: none;
@@ -349,11 +349,11 @@ p {
         display: block;
         float: left;
         background: 0 0 !important;
-		border: 0 !important;
-		img {
-			display: block;
-			width: auto;
-		}
+        border: 0 !important;
+        img {
+            display: block;
+            width: auto;
+        }
     }
 }
 
@@ -857,20 +857,23 @@ ol.tags {
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0;
-    background: #ffefe6 no-repeat center center;
-    font-size: 1rem;
-    line-height: 1.75em;
-    color: #7a8a9a;
-    display: table-row;
+    margin: 0 auto;
+    // background: #ffefe6 no-repeat center center;
+    // font-size: 1rem;
+    max-width: 70ch;
+    padding: 2ch;
     .copyright {
-        padding: 2rem 15px;
+        line-height: 1.75em;
+        color: #7a8a9a;
+        font-size: 1rem;
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
     .main-nav {
         padding: 15px;
+        max-width: 100%;
+        margin: 0 0 30px;
     }
 
     .main-header {
@@ -878,7 +881,6 @@ ol.tags {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        padding: 5% 0;
     }
 
     .page-title {
@@ -951,7 +953,7 @@ ol.tags {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
     .main-header {
         margin-bottom: 15px;
     }
@@ -963,7 +965,6 @@ ol.tags {
     .main-nav {
         padding: 0 2ch;
         margin-bottom: 2rem;
-        max-width: 70ch;
     }
 
     .back-button,
