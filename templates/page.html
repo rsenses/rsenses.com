@@ -37,7 +37,7 @@
             <!-- If we want to display author's name and bio -->
             {% if config.extra.author %}
                 <figure class="author-image">
-                    <a class="img" href="/" style="background-image: url(/assets/images/profile.jpg)">
+                    <a class="img" href="{{ get_url(path="/") }}" style="background-image: url(/assets/images/profile.jpg)">
                     <span class="hidden">{{config.extra.author}}'s Picture</span></a>
                 </figure>
                 <section class="author">
@@ -45,18 +45,13 @@
                     <h4> {{ config.extra.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        {{ config.extra.author_description }}
+                        {{ config.extra.author_description }} Si quieres enviarme algún comentario, puedes <a href="{{ get_url(path="@/static/about/index.md") }}">contactar conmigo</a>.
                     </p>
                 </section>
             {% endif %}
 
             <!-- Share links section -->
             {% include "share.html" %}
-
-            <!-- Disqus comments -->
-            {% if config.disqus %}
-                {% include "disqus.html" %}
-            {% endif %}
         </footer>
     </article>
 </main>

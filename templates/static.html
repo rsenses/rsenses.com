@@ -19,7 +19,9 @@
         </header>
 
         <section class="post-content">
-            {{ page.content | safe }}
+            {{ page.content | replace(from=`<a href="` ~ config.base_url ~ `/`, to=`<a  href="` ~ config.base_url ~ `/`)
+                | replace(from=`<a href="https://`, to=`<a target="_blank" rel="noopener" href="https://`)
+                | replace(from=`<a href="http://`, to=`<a target="_blank" rel="noopener" href="http://`) | safe }}
         </section>
 
         <footer class="post-footer">
@@ -34,18 +36,13 @@
                     <h4> {{ config.extra.author }} </h4>
                     <!-- Author Bio -->
                     <p>
-                        {{ config.extra.author_description }}
+                        {{ config.extra.author_description }} Si quieres enviarme algún comentario, puedes <a href="{{ get_url(path="@/static/about/index.md") }}">contactar conmigo</a>.
                     </p>
                 </section>
             {% endif %}
 
             <!-- Share links section -->
             {% include "share.html" %}
-
-            <!-- Disqus comments -->
-            {% if config.disqus %}
-                {% include "disqus.html" %}
-            {% endif %}
         </footer>
     </article>
 </main>
