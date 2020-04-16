@@ -21,4 +21,6 @@ Y este es el código HTML necesario:
 
 ```html
 Contenido original de <a href="https://rsenses.com/">Rubén Silva</a>.
-```
+```  
+
+Y como muestra, quería agradecer a [Kev Quirk](https://kevq.uk) la inspiración y ayuda de su blog para confeccionar esta página de licencia.  
