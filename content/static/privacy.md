@@ -4,10 +4,10 @@ path = "privacy"
 description = "Hola, me llamo Rubén, esto es una especie de diario y repositorio de ideas y aprendizajes, donde mostrar mis múltiples facetas."
 +++
 
-1. [HTTPS](@/static/privacy/index.md#https)  
-2. [Analítica](@/static/privacy/index.md#analitica)
-    1. [Cookies](@/static/privacy/index.md#cookies)  
-3. [Aviso legal](@/static/privacy/index.md#aviso-legal)  
+1. [HTTPS](@/static/privacy.md#https)  
+2. [Analítica](@/static/privacy.md#analitica)
+    1. [Cookies](@/static/privacy.md#cookies)  
+3. [Aviso legal](@/static/privacy.md#aviso-legal)  
 
 Me gusta tener muy en cuenta mi propia privacidad, por tanto, creo imprescindible tratar con extremo cuidado la privacidad de todas aquellas personas que lean esta página web.
 Además, hay que cumplir con la ley europea.  
@@ -32,4 +32,4 @@ El sitio tiene únicamente una cookie que utiliza Cloudflare para poder redirigi
 
 **No tienes que aceptar ningún término legal** o aviso para poder acceder, leer o copiar esta página web.  
 
-Todo el contenido de esta web está publicado bajo [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/). Más información al respecto en la página [Licencia de uso](@/static/license-information/index.md)  
+Todo el contenido de esta web está publicado bajo [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/). Más información al respecto en la página [Licencia de uso](@/static/license-information.md)  
