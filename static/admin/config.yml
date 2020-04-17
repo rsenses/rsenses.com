@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: rsenses/rsenses.com # Path to your GitHub repository
   branch: master # Branch to update (optional; defaults to master)
 # This line should *not* be indented
 publish_mode: editorial_workflow
@@ -28,6 +29,3 @@ collections:
             widget: "list"
             field:
               - {label: "Tag", name: "tag", widget: "string"}
-backend:
-  name: github
-  repo: rsenses/rsenses.com # Path to your GitHub repository

@@ -5,7 +5,9 @@
         </header>
         <section class="post-excerpt">
             <p>
-                {{ page.description | striptags | safe }}
+                {{ page.summary | replace(from=`<a href="` ~ config.base_url ~ `/`, to=`<a  href="` ~ config.base_url ~ `/`)
+                | replace(from=`<a href="https://`, to=`<a target="_blank" rel="noopener" href="https://`)
+                | replace(from=`<a href="http://`, to=`<a target="_blank" rel="noopener" href="http://`) | safe }}
                 <a class="read-more" href="{{ page.permalink }}">&raquo;</a>
             </p>
         </section>
