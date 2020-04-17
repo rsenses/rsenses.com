@@ -2,7 +2,7 @@
 draft = true
 title = "Prácticas Estoicas"
 date = 2020-04-09
-description = "You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!"
+description = "Esta es una descripción en texto plano"
 [taxonomies]
 tags = ["aprendizaje", "estoicismo"]
 +++
