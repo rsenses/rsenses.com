@@ -23,7 +23,7 @@
 
     <main id="content" class="content" role="main">
         {% for page in paginator.pages %}
-            {{ macros::post_header(page=page, excerpt=true) }}
+            {{ macros::post_header(page=page) }}
         {% endfor %}
 
         {% include "pagination.html" %}

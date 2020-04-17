@@ -6,7 +6,7 @@
 
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}</title>
     
-    <meta name="description" content="{% if page.content %}{{ page.content | safe | striptags | truncate }}{% else %}{{ config.description }}{% endif %}">
+    <meta name="description" content="{% if page.description %}{{ page.description | safe | striptags }}{% else %}{{ config.description }}{% endif %}">
     <meta name="author" content="{{ config.extra.author }}">
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ config.title }}">

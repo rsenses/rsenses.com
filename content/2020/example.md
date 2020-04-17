@@ -2,10 +2,9 @@
 draft = true
 title = "Prácticas Estoicas"
 date = 2020-04-09
+description = "You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!"
 [taxonomies]
 tags = ["aprendizaje", "estoicismo"]
-[extra]
-excerpt = "You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!"
 +++
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

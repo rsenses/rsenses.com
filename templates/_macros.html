@@ -5,7 +5,7 @@
         </header>
         <section class="post-excerpt">
             <p>
-                {{ page.extra.excerpt | striptags | safe }}
+                {{ page.description | striptags | safe }}
                 <a class="read-more" href="{{ page.permalink }}">&raquo;</a>
             </p>
         </section>
