@@ -1,6 +1,7 @@
 +++
 title = "Licencia de uso"
 path = "license-information"
+description = "Hola, me llamo Rubén, esto es una especie de diario y repositorio de ideas y aprendizajes, donde mostrar mis múltiples facetas."
 +++
 
 Todos los contenidos de esta web están creados bajo una Licencia Creative Commons Atribución 4.0 Internacional (a menos que se especifique lo contrario), lo cual quiere decir:  

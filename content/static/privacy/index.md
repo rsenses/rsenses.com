@@ -1,6 +1,7 @@
 +++
 title = "Privacidad"
 path = "privacy"
+description = "Hola, me llamo Rubén, esto es una especie de diario y repositorio de ideas y aprendizajes, donde mostrar mis múltiples facetas."
 +++
 
 1. [HTTPS](@/static/privacy/index.md#https)  
