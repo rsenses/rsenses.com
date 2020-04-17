@@ -1,8 +1,8 @@
 +++
 draft = true
 title = "Prácticas Estoicas"
-date = 2020-04-09
 description = "Esta es una descripción en texto plano"
+date = 2020-04-09
 [taxonomies]
 tags = ["aprendizaje", "estoicismo"]
 +++
