@@ -2,6 +2,7 @@
 title = "Prácticas Estoicas"
 date = 2020-04-09
 description = "El estoicismo es una doctrina filosófica que nos proporciona varias herramientas que nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo."
+aliases = ['/2020/practicas-estoicas']
 [taxonomies]
 tags = ["aprendizaje", "estoicismo"]
 +++
@@ -9,7 +10,7 @@ tags = ["aprendizaje", "estoicismo"]
 El [estoicismo][estoicismo] es una doctrina filosófica o *filosofía de vida* que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo.  
 <!-- more -->
 
-{% figure(alt="Busto de Marco Aurelio", url="marcoaurelio.jpg") %}
+{% figure(alt="Busto de Marco Aurelio", url="/assets/images/uploads/marcoaurelio.jpg") %}
     Marco Aurelio. ¡Que pose tan impasible, estoica, marmórea!
 {% end %}   
 
