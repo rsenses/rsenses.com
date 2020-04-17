@@ -1,7 +1,7 @@
 +++
 title = "Prueba"
 date = 2020-04-17T10:09:44.200Z
-draft = true
+draft = false
 description = "Probando netlify cms"
 
 [taxonomies]
