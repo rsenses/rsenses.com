@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>rsenses</title>
+        <link>https://rsenses.com</link>
+        <description>Hola, me llamo Rubén, esto es una especie de &lt;strong&gt;diario&lt;&#x2F;strong&gt; y repositorio de &lt;strong&gt;ideas&lt;&#x2F;strong&gt; y &lt;strong&gt;aprendizajes&lt;&#x2F;strong&gt;, donde mostrar mis múltiples facetas.</description>
+        <generator>Zola</generator>
+        <language>es</language>
+        <atom:link href="https://rsenses.com/tags/diario/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 17 May 2020 16:01:26 +0000</lastBuildDate>
+        
+            <item>
+                <title>Recomendaciones abril 2020</title>
+                <pubDate>Sun, 17 May 2020 16:01:26 +0000</pubDate>
+                <link>https://rsenses.com/blog/recomendaciones-abril-2020/</link>
+                <guid>https://rsenses.com/blog/recomendaciones-abril-2020/</guid>
+                <description>&lt;p&gt;Libros, artículos, series, películas... todo la cultura y productos audiovisuales que he consumido durante el més de abril de 2020 y considero que merece la pena recomendar.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

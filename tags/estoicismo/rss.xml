@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>rsenses</title>
+        <link>https://rsenses.com</link>
+        <description>Hola, me llamo Rubén, esto es una especie de &lt;strong&gt;diario&lt;&#x2F;strong&gt; y repositorio de &lt;strong&gt;ideas&lt;&#x2F;strong&gt; y &lt;strong&gt;aprendizajes&lt;&#x2F;strong&gt;, donde mostrar mis múltiples facetas.</description>
+        <generator>Zola</generator>
+        <language>es</language>
+        <atom:link href="https://rsenses.com/tags/estoicismo/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 09 Apr 2020 10:09:44 +0000</lastBuildDate>
+        
+            <item>
+                <title>Prácticas Estoicas</title>
+                <pubDate>Thu, 09 Apr 2020 10:09:44 +0000</pubDate>
+                <link>https://rsenses.com/blog/practicas-estoicas/</link>
+                <guid>https://rsenses.com/blog/practicas-estoicas/</guid>
+                <description>&lt;p&gt;El &lt;a href=&quot;https:&#x2F;&#x2F;elestoico.com&#x2F;&quot;&gt;estoicismo&lt;&#x2F;a&gt; es una doctrina filosófica o &lt;em&gt;filosofía de vida&lt;&#x2F;em&gt; que nos proporciona varias herramientas que, si bien no van a solucionar todos nuestros problemas, sí nos van a permitir hacer nuestra vida mas fácil y llevadera. En este artículo resumo 12 prácticas con las que iniciarse en el estoicismo.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

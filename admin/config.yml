@@ -1,0 +1,44 @@
+backend:
+  name: github
+  repo: rsenses/rsenses.com # Path to your GitHub repository
+  branch: master # Branch to update (optional; defaults to master)
+# This line should *not* be indented
+# publish_mode: editorial_workflow
+# This line should *not* be indented
+media_folder: "static/assets/images/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/assets/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+site_url: https://rsenses.com
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    format: "toml-frontmatter"
+    identifier_field: title
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Taxonomies"
+        name: "taxonomies"
+        widget: "object"
+        fields:
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+            default: ["aprendizaje"]
+  - name: "page" # Used in routes, e.g., /admin/collections/page
+    label: "Page" # Used in the UI
+    folder: "content/static" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    format: "toml-frontmatter"
+    identifier_field: title
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Path", name: "path", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
