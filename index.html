@@ -1,0 +1,54 @@
+---
+layout: layout.liquid
+title: bienvenido | rsenses
+description: Hola, me llamo Rubén, esto es una especie de diario y repositorio de ideas y aprendizajes, donde mostrar mis múltiples facetas.
+image: /assets/images/android-icon-192x192.png
+---
+
+<header class="main-header">
+    <nav class="main-nav">
+        <a class="blog-logo" href="/">
+            <img src="/assets/images/logo.png" alt="Rsenses" />
+        </a>
+        <a class="subscribe-button" href="/feed.xml"><i class="icon-rss"></i> Subscribe</a>
+        <div class="clearfix"></div>
+    </nav>
+    <div class="main-header-content inner">
+        <h1 class="page-title">rsenses</h1>
+        <h2 class="page-description">
+            {{ description }}
+        </h2>
+    </div>
+</header>
+
+<main id="content" class="content" role="main">
+    {% for post in collections.posts reversed limit:6 %}
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+            <header class="post-header">
+                <h2 class="post-title" itemprop="headline">
+                    <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </h2>
+            </header>
+            <section class="post-excerpt">
+                <p>
+                    {{ post.data.description }}
+                </p>
+            </section>
+            <footer class="post-meta" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
+                <span itemprop="name">Rubén Silva</span>
+                {% if post.data.tags %}
+                    en
+                    {% for tag in post.data.tags %}
+                        {% if tag != 'posts' %}
+                            <a href="#0">#{{ tag }}</a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                <time class="post-date" datetime="{{ post.data.date }}" itemprop="datePublished">
+                    {{ post.data.date | date: "%e %B %Y" }}
+                </time> 
+            </footer>
+        </article>
+    {% endfor %}
+</main>

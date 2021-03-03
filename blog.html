@@ -1,0 +1,30 @@
+---
+layout: layout.liquid
+title: Foro Económico Internacional
+description: ¿Quieres ser el anfitrión perfecto esta Navidad? Te damos las claves para conseguirlo
+image: /assets/img/rrss.jpg
+---
+<section class="hero mb-2">
+    <div class="row align-items-center">
+        <div class="col claim">
+            <h2><span class="text-info">Prensa <span style="font-size:10rem;line-height:0">.</span></span></h2>
+            <hr>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="row">
+        {% for post in collections.post reversed %}
+            <div class="col col-sm-6 col-md-4 font-light">
+                <div class="card mb-4">
+                    <img src="/assets/img/{{ post.data.folder }}/principal1.jpg" alt="{{ post.data.title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ post.data.title }}</h5>
+                        <a href="{{ post.url }}" target="_blank" class="btn btn-primary">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,43 @@
+{% layout layout.liquid %}
+
+{% block content %}
+    <header class="main-header post-head no-cover">
+        <nav class="main-nav clearfix">
+            <a class="back-button" href="/"><i class="icon-left-open"></i> Home</a>
+            <a class="subscribe-button icon-feed" href="/feed.xml"><i class="icon-rss"></i> Subscribe</a>
+        </nav>
+    </header>
+
+    <main class="content" role="main" itemprop="mainEntityOfPage" itemscope itemtype="https://schema.org/WebPage">
+
+        <article class="post" itemprop="mainEntity" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <header class="post-header">
+                <h1 class="post-title" itemprop="headline">{{ title }}</h1>
+                <section class="post-meta">
+                    <time class="post-date" datetime="{{ date }}" itemprop="datePublished">{{ date | date: "%e %B %Y" }}</time>
+                    {% if tags %}
+                        en
+                        {% for tag in tags %}
+                            {% if tag != 'posts' %}
+                                <a href="#">#{{ tag }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </section>
+            </header>
+
+            <section class="post-content" itemprop="articleBody">
+                    {{ content }}
+            </section>
+
+            <footer class="post-footer">
+                <!-- If we want to display author's name and bio -->
+                {% include author.liquid %}
+
+                <!-- Share links section -->
+                {% include share.liquid, title: title %}
+            </footer>
+        </article>
+    </main>
+{% endblock %}
