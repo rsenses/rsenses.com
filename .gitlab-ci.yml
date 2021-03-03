@@ -23,7 +23,7 @@ pages:
   stage: deploy
   script:
     - npx eleventy # Generate the Static Site
-    - npm run sass -- --watch # Compile sass
+    - npx sass --style=compressed src/scss/main.scss public/assets/css/main.css # Compile sass
   artifacts:
     paths:
       - public 
