@@ -1,0 +1,31 @@
+image: node:8
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+  - node_modules/
+
+before_script:
+  - npm install # Install project dependencies
+
+# add a job called 'test' -> non-required
+test:
+  stage: test
+  script:
+    - npx eleventy # Test out generating the site
+    - npm run sass -- --watch # Test out compiling sass
+  except:
+    - master # the 'test' job will affect all branches expect 'master'
+
+# the 'pages' job will deploy and build your site to the 'public' path
+pages:
+  stage: deploy
+  script:
+    - npx eleventy # Generate the Static Site
+    - npm run sass -- --watch # Compile sass
+  artifacts:
+    paths:
+      - public 
+  only:
+    - master # this job will affect only the 'master' branch
