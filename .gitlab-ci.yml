@@ -14,7 +14,7 @@ test:
   stage: test
   script:
     - npx eleventy # Test out generating the site
-    - npm run sass -- --watch # Test out compiling sass
+    - npx sass --style=compressed src/scss/main.scss public/assets/css/main.css
   except:
     - master # the 'test' job will affect all branches expect 'master'
 
