@@ -3,8 +3,14 @@
 {% block content %}
     <header class="main-header post-head no-cover">
         <nav class="main-nav clearfix">
-            <a class="back-button" href="/"><i class="icon-left-open"></i> Home</a>
-            <a class="subscribe-button icon-feed" href="/feed.xml"><i class="icon-rss"></i> Subscribe</a>
+            <a class="back-button" href="/">
+                <svg class="icon"><use href="/assets/images/icons.svg#chevron-left"></use></svg>
+                Home
+            </a>
+            <a class="subscribe-button icon-feed" href="/feed.xml">
+                <svg class="icon"><use href="/assets/images/icons.svg#rss"></use></svg>
+                Subscribe
+            </a>
         </nav>
     </header>
 

@@ -15,5 +15,5 @@ Puedes contactar conmigo a través de varios métodos, excepto para:
 - Enviarme SPAM.  
 
 ### Métodos de contacto
-<i class="icon-mail"></i> Email: [me@rsenses.com](mailto:me+contact@rsenses.com)  
-<i class="icon-twitter"></i> Twitter: [@rsenses](https://twitter.com/rsenses)  
+<svg class="icon"><use href="/assets/images/icons.svg#envelope"></use></svg> Email: [me@rsenses.com](mailto:me+contact@rsenses.com)  
+<svg class="icon"><use href="/assets/images/icons.svg#twitter"></use></svg> Twitter: [@rsenses](https://twitter.com/rsenses)  
