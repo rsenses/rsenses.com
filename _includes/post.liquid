@@ -22,14 +22,14 @@
                 <h1 class="post-title" itemprop="headline">{{ title }}</h1>
                 <section class="post-meta">
                     <time class="post-date" datetime="{{ date }}" itemprop="datePublished">{{ date | date: "%e %B %Y" }}</time>
-                    {% if tags %}
+                    <!-- {% if tags %}
                         en
                         {% for tag in tags %}
                             {% if tag != 'posts' %}
                                 <a href="#">#{{ tag }}</a>
                             {% endif %}
                         {% endfor %}
-                    {% endif %}
+                    {% endif %} -->
                 </section>
             </header>
 
