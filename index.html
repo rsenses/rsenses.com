@@ -40,16 +40,6 @@ image: /assets/images/android-icon-192x192.png
                 </p>
             </section>
             <footer class="post-meta" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <!-- <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
-                <span itemprop="name">Rubén Silva</span>
-                {% if post.data.tags %}
-                    en
-                    {% for tag in post.data.tags %}
-                        {% if tag != 'posts' %}
-                            <a href="#0">#{{ tag }}</a>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %} -->
                 <time class="post-date" datetime="{{ post.data.date }}" itemprop="datePublished">
                     {{ post.data.date | date: "%e %B %Y" }}
                 </time> 
