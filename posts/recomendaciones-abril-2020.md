@@ -1,5 +1,5 @@
 ---
-title: Recomendaciones abril 2020
+title: Recomendaciones
 description: Libros, artículos, series, películas... todo la cultura y productos audiovisuales que he consumido durante el més de abril de 2020 y considero que merece la pena recomendar.
 subtitle: Libros, artículos, series, películas... todo la cultura y productos audiovisuales que he consumido durante el més de abril de 2020 y considero que merece la pena recomendar.
 tags: ['posts', 'recomendaciones']
